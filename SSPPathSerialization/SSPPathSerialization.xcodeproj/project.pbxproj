@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741E7F531C81A407007BCFAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F521C81A407007BCFAF /* main.m */; };
+		741E7F591C81A4DA007BCFAF /* NSData+SSPPathSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F581C81A4DA007BCFAF /* NSData+SSPPathSerialization.m */; };
+		741E7F611C81A546007BCFAF /* SSPPathSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F601C81A546007BCFAF /* SSPPathSerializationTests.m */; };
+		741E7F661C81A554007BCFAF /* NSData+SSPPathSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F581C81A4DA007BCFAF /* NSData+SSPPathSerialization.m */; };
+		741E7F691C81AC5E007BCFAF /* SSPPathSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */; };
+		741E7F6A1C81B75A007BCFAF /* SSPPathSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		741E7F4E1C81A407007BCFAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		741E7F501C81A407007BCFAF /* svgpathconverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = svgpathconverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		741E7F521C81A407007BCFAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741E7F571C81A4DA007BCFAF /* NSData+SSPPathSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SSPPathSerialization.h"; sourceTree = "<group>"; };
+		741E7F581C81A4DA007BCFAF /* NSData+SSPPathSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SSPPathSerialization.m"; sourceTree = "<group>"; };
+		741E7F5E1C81A546007BCFAF /* SSPPathSerializationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSPPathSerializationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741E7F601C81A546007BCFAF /* SSPPathSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPPathSerializationTests.m; sourceTree = "<group>"; };
+		741E7F621C81A546007BCFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741E7F671C81AC5E007BCFAF /* SSPPathSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPathSerializer.h; sourceTree = "<group>"; };
+		741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPathSerializer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741E7F4D1C81A407007BCFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741E7F5B1C81A546007BCFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741E7F391C81A39C007BCFAF = {
+			isa = PBXGroup;
+			children = (
+				741E7F441C81A39C007BCFAF /* SSPPathSerialization */,
+				741E7F511C81A407007BCFAF /* svgpathconverter */,
+				741E7F5F1C81A546007BCFAF /* SSPPathSerializationTests */,
+				741E7F431C81A39C007BCFAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741E7F431C81A39C007BCFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741E7F501C81A407007BCFAF /* svgpathconverter */,
+				741E7F5E1C81A546007BCFAF /* SSPPathSerializationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741E7F441C81A39C007BCFAF /* SSPPathSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				741E7F571C81A4DA007BCFAF /* NSData+SSPPathSerialization.h */,
+				741E7F581C81A4DA007BCFAF /* NSData+SSPPathSerialization.m */,
+				741E7F671C81AC5E007BCFAF /* SSPPathSerializer.h */,
+				741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */,
+			);
+			path = SSPPathSerialization;
+			sourceTree = "<group>";
+		};
+		741E7F511C81A407007BCFAF /* svgpathconverter */ = {
+			isa = PBXGroup;
+			children = (
+				741E7F521C81A407007BCFAF /* main.m */,
+			);
+			path = svgpathconverter;
+			sourceTree = "<group>";
+		};
+		741E7F5F1C81A546007BCFAF /* SSPPathSerializationTests */ = {
+			isa = PBXGroup;
+			children = (
+				741E7F601C81A546007BCFAF /* SSPPathSerializationTests.m */,
+				741E7F621C81A546007BCFAF /* Info.plist */,
+			);
+			path = SSPPathSerializationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741E7F4F1C81A407007BCFAF /* svgpathconverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741E7F541C81A407007BCFAF /* Build configuration list for PBXNativeTarget "svgpathconverter" */;
+			buildPhases = (
+				741E7F4C1C81A407007BCFAF /* Sources */,
+				741E7F4D1C81A407007BCFAF /* Frameworks */,
+				741E7F4E1C81A407007BCFAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svgpathconverter;
+			productName = svgpathconverter;
+			productReference = 741E7F501C81A407007BCFAF /* svgpathconverter */;
+			productType = "com.apple.product-type.tool";
+		};
+		741E7F5D1C81A546007BCFAF /* SSPPathSerializationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741E7F631C81A546007BCFAF /* Build configuration list for PBXNativeTarget "SSPPathSerializationTests" */;
+			buildPhases = (
+				741E7F5A1C81A546007BCFAF /* Sources */,
+				741E7F5B1C81A546007BCFAF /* Frameworks */,
+				741E7F5C1C81A546007BCFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSPPathSerializationTests;
+			productName = SSPPathSerializationTests;
+			productReference = 741E7F5E1C81A546007BCFAF /* SSPPathSerializationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741E7F3A1C81A39C007BCFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ssp;
+				TargetAttributes = {
+					741E7F4F1C81A407007BCFAF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					741E7F5D1C81A546007BCFAF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 741E7F3D1C81A39C007BCFAF /* Build configuration list for PBXProject "SSPPathSerialization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 741E7F391C81A39C007BCFAF;
+			productRefGroup = 741E7F431C81A39C007BCFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741E7F4F1C81A407007BCFAF /* svgpathconverter */,
+				741E7F5D1C81A546007BCFAF /* SSPPathSerializationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741E7F5C1C81A546007BCFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741E7F4C1C81A407007BCFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741E7F531C81A407007BCFAF /* main.m in Sources */,
+				741E7F591C81A4DA007BCFAF /* NSData+SSPPathSerialization.m in Sources */,
+				741E7F691C81AC5E007BCFAF /* SSPPathSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741E7F5A1C81A546007BCFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741E7F611C81A546007BCFAF /* SSPPathSerializationTests.m in Sources */,
+				741E7F661C81A554007BCFAF /* NSData+SSPPathSerialization.m in Sources */,
+				741E7F6A1C81B75A007BCFAF /* SSPPathSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		741E7F471C81A39C007BCFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		741E7F481C81A39C007BCFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		741E7F551C81A407007BCFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		741E7F561C81A407007BCFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		741E7F641C81A546007BCFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSPPathSerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssp.SSPPathSerializationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		741E7F651C81A546007BCFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SSPPathSerializationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssp.SSPPathSerializationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741E7F3D1C81A39C007BCFAF /* Build configuration list for PBXProject "SSPPathSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741E7F471C81A39C007BCFAF /* Debug */,
+				741E7F481C81A39C007BCFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741E7F541C81A407007BCFAF /* Build configuration list for PBXNativeTarget "svgpathconverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741E7F551C81A407007BCFAF /* Debug */,
+				741E7F561C81A407007BCFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		741E7F631C81A546007BCFAF /* Build configuration list for PBXNativeTarget "SSPPathSerializationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741E7F641C81A546007BCFAF /* Debug */,
+				741E7F651C81A546007BCFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741E7F3A1C81A39C007BCFAF /* Project object */;
+}
