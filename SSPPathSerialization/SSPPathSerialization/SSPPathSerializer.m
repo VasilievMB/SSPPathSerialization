@@ -8,7 +8,7 @@
 
 #import "SSPPathSerializer.h"
 
-typedef CF_ENUM(int32_t, SSPPathElementType) {
+typedef CF_ENUM(int8_t, SSPPathElementType) {
     SSPPathElementTypeMoveToPoint = kCGPathElementMoveToPoint,
     SSPPathElementTypeAddLineToPoint = kCGPathElementAddLineToPoint,
     SSPPathElementTypeAddQuadCurveToPoint = kCGPathElementAddQuadCurveToPoint,

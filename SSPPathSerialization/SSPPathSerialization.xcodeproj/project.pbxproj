@@ -13,7 +13,41 @@
 		741E7F661C81A554007BCFAF /* NSData+SSPPathSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F581C81A4DA007BCFAF /* NSData+SSPPathSerialization.m */; };
 		741E7F691C81AC5E007BCFAF /* SSPPathSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */; };
 		741E7F6A1C81B75A007BCFAF /* SSPPathSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */; };
+		741E81B91C845E65007BCFAF /* libSVGKit-OSX-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E81A31C845D82007BCFAF /* libSVGKit-OSX-lib.a */; };
+		741E81BD1C84738F007BCFAF /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E81BC1C84738F007BCFAF /* libCocoaLumberjack.a */; };
+		741E81C01C847462007BCFAF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E81BF1C847462007BCFAF /* libxml2.tbd */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741E81981C845D82007BCFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5540E66C17387C9F004029EF;
+			remoteInfo = "SVGKit-OS X";
+		};
+		741E819A1C845D82007BCFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55825B5119EC80D400635497;
+			remoteInfo = "SVGKit-OS X Tests";
+		};
+		741E81A21C845D82007BCFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 741E81881C843A86007BCFAF;
+			remoteInfo = "SVGKit-OSX-lib";
+		};
+		741E81B71C845E51007BCFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 741E80961C843A86007BCFAF;
+			remoteInfo = "SVGKit-OSX-lib";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		741E7F4E1C81A407007BCFAF /* CopyFiles */ = {
@@ -37,6 +71,11 @@
 		741E7F621C81A546007BCFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741E7F671C81AC5E007BCFAF /* SSPPathSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPPathSerializer.h; sourceTree = "<group>"; };
 		741E7F681C81AC5E007BCFAF /* SSPPathSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPPathSerializer.m; sourceTree = "<group>"; };
+		741E7F771C832D71007BCFAF /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		741E7F781C832D71007BCFAF /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVGKit.framework; sourceTree = "<group>"; };
+		741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SVGKit.xcodeproj; path = SVGKit/SVGKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		741E81BC1C84738F007BCFAF /* libCocoaLumberjack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaLumberjack.a; path = "SVGKit/Source/Vendor/CocoaLumberjack/build/Debug-iphoneos/libCocoaLumberjack.a"; sourceTree = SOURCE_ROOT; };
+		741E81BF1C847462007BCFAF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741E81C01C847462007BCFAF /* libxml2.tbd in Frameworks */,
+				741E81BD1C84738F007BCFAF /* libCocoaLumberjack.a in Frameworks */,
+				741E81B91C845E65007BCFAF /* libSVGKit-OSX-lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +106,7 @@
 				741E7F511C81A407007BCFAF /* svgpathconverter */,
 				741E7F5F1C81A546007BCFAF /* SSPPathSerializationTests */,
 				741E7F431C81A39C007BCFAF /* Products */,
+				741E7F761C832D71007BCFAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				741E7F521C81A407007BCFAF /* main.m */,
+				741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */,
 			);
 			path = svgpathconverter;
 			sourceTree = "<group>";
@@ -102,6 +146,27 @@
 				741E7F621C81A546007BCFAF /* Info.plist */,
 			);
 			path = SSPPathSerializationTests;
+			sourceTree = "<group>";
+		};
+		741E7F761C832D71007BCFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				741E81BF1C847462007BCFAF /* libxml2.tbd */,
+				741E81BC1C84738F007BCFAF /* libCocoaLumberjack.a */,
+				741E7F771C832D71007BCFAF /* CocoaLumberjack.framework */,
+				741E7F781C832D71007BCFAF /* SVGKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		741E818F1C845D82007BCFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741E81991C845D82007BCFAF /* SVGKit.framework */,
+				741E819B1C845D82007BCFAF /* SVGKit-OS X Tests.xctest */,
+				741E81A31C845D82007BCFAF /* libSVGKit-OSX-lib.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +183,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				741E81B81C845E51007BCFAF /* PBXTargetDependency */,
 			);
 			name = svgpathconverter;
 			productName = svgpathconverter;
@@ -168,6 +234,12 @@
 			mainGroup = 741E7F391C81A39C007BCFAF;
 			productRefGroup = 741E7F431C81A39C007BCFAF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 741E818F1C845D82007BCFAF /* Products */;
+					ProjectRef = 741E818E1C845D82007BCFAF /* SVGKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				741E7F4F1C81A407007BCFAF /* svgpathconverter */,
@@ -175,6 +247,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		741E81991C845D82007BCFAF /* SVGKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SVGKit.framework;
+			remoteRef = 741E81981C845D82007BCFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		741E819B1C845D82007BCFAF /* SVGKit-OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SVGKit-OS X Tests.xctest";
+			remoteRef = 741E819A1C845D82007BCFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		741E81A31C845D82007BCFAF /* libSVGKit-OSX-lib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSVGKit-OSX-lib.a";
+			remoteRef = 741E81A21C845D82007BCFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		741E7F5C1C81A546007BCFAF /* Resources */ = {
@@ -208,6 +304,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741E81B81C845E51007BCFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SVGKit-OSX-lib";
+			targetProxy = 741E81B71C845E51007BCFAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		741E7F471C81A39C007BCFAF /* Debug */ = {
@@ -292,6 +396,17 @@
 		741E7F551C81A407007BCFAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/SVGKit/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -299,6 +414,17 @@
 		741E7F561C81A407007BCFAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/SVGKit/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -344,6 +470,7 @@
 				741E7F561C81A407007BCFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		741E7F631C81A546007BCFAF /* Build configuration list for PBXNativeTarget "SSPPathSerializationTests" */ = {
 			isa = XCConfigurationList;
@@ -352,6 +479,7 @@
 				741E7F651C81A546007BCFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
